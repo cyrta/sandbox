@@ -1,0 +1,60 @@
+
+# Collection of useful C libraries
+
+- libuv
+   a multi-platform support library with a focus on asynchronous I/O.
+   https://github.com/joyent/libuv
+
+- http-parser 
+   http request/response parser for c 
+   https://github.com/clibs/http-parser
+
+- net 
+  extends libuv to support tls/ssl in a simpler API for clibs 
+  https://github.com/clibs/net
+
+- timestamp 
+  C timestamp util 
+  https://github.com/clibs/timestamp
+
+- buffer 
+  Tiny C string library 
+  https://github.com/clibs/buffer
+
+- yaml 
+  https://github.com/clibs/yaml
+
+- inih 
+  Simple .INI file parser 
+  https://github.com/clibs/inih
+
+- hash  
+  C hash implementation based on khash 
+  https://github.com/clibs/hash
+
+- red-black-tree 
+  Generic red-black tree library (by Julienne Walker). 
+  https://github.com/clibs/red-black-tree
+  
+- commander 
+  Commander option parser ported to C - simple API, auto-generated --help 
+  https://github.com/clibs/commander
+  
+- file 
+  File utilities 
+  https://github.com/clibs/file
+
+
+- cutef8 
+  simple, fast C routines for manipulating UTF-8 
+  https://github.com/clibs/cutef8
+
+
+- libsupport 
+ a library of useful C utilities 
+ https://github.com/clibs/libsupport
+
+- int 
+  Binary integer representation utilities. 
+  https://github.com/clibs/int
+

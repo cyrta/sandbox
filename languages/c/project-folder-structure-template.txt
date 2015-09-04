@@ -1,0 +1,22 @@
+https://github.com/koanlogic/libu/wiki/Complete-cross-compilation-example
+- /home/ma/myproject/
+-- include
+--- Makefile
+--- mylib.h
+-- program
+--- Makefile
+--- main.c
+-- mylib
+--- mylib.c
+--- Makefile
+-- libu
+--- ... installation of LibU
+-- libu-2.2.0
+--- ... source of LibU
+-- makl
+--- ... installation of MaKL
+-- makl-1.9.0
+--- ... source of MaKL
+-- Makefile
+-- arm.tc
+-- VERSION

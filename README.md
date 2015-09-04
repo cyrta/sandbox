@@ -8,6 +8,23 @@ Mostly a collection of "Hello World", methods to try,
 recipies to check
 examples for various languages.
 
+**Strucutre:**
+ - languages
+ - algorithms
+
+ - dsp (basics, windows filters)
+ - audio (synth..)
+ - music (midi, notation)
+
+ - nlp
+ - ml (machine learning, dnn, ...)
+   - research
+
+ - web (backend: servers)
+ - www (frontend: html+css+js)
+
+ - graphics (svg, fonts, ..)
+
 ---------------------
 inspiration from  0xfe
 https://github.com/0xfe/experiments
