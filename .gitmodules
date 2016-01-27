@@ -1,0 +1,3 @@
+[submodule "algorithms/go-datastructures"]
+	path = algorithms/go-datastructures
+	url = https://github.com/Workiva/go-datastructures.git
