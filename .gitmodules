@@ -1,3 +1,6 @@
 [submodule "algorithms/go-datastructures"]
 	path = algorithms/go-datastructures
 	url = https://github.com/Workiva/go-datastructures.git
+[submodule "languages/go/go_design_pattern"]
+	path = languages/go/go_design_pattern
+	url = https://github.com/monochromegane/go_design_pattern.git
