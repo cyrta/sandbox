@@ -1,0 +1,5 @@
+
+Web Application bootstrap for Go http://defaultproject.com/ 
+
+Divide code in to layers - web frontend - http api - data store. Check out the source code here: https://github.com/sourcegraph/thesrc/
+
