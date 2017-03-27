@@ -4,3 +4,6 @@
 [submodule "languages/go/go_design_pattern"]
 	path = languages/go/go_design_pattern
 	url = https://github.com/monochromegane/go_design_pattern.git
+[submodule "web/webserver-libev-httpparser"]
+	path = web/webserver-libev-httpparser
+	url = https://github.com/dexgeh/webserver-libev-httpparser
