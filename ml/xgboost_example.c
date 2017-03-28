@@ -2,7 +2,10 @@
 #include <xgboost>
 //#include <xgboost/c_api.h>
 
-#src: http://stackoverflow.com/questions/36071672/using-xgboost-in-c
+//src: http://stackoverflow.com/questions/36071672/using-xgboost-in-c
+//https://github.com/dmlc/xgboost/tree/master/include/xgboost
+//
+
 
 // create the train data
 int cols=3,rows=5;
