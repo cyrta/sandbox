@@ -15,6 +15,13 @@
    some_program --producing --samples | squelch [OPTION]... | ...
 
 
+    example:
+        sox       -r 16k -t raw -e signed -b 16 -c 1 -V1 -\
+               -r 11025 -t raw - sinc 200-4500 |\
+                 squelch   -l 5 -d 4096 -t 64 |\
+                   sox       -t raw -e signed -c 1 -b 16 -r 11025 - recording.wav
+
+
    Command line options
    --------------------
 
