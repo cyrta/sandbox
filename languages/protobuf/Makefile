@@ -10,8 +10,8 @@ helloworld:
 		go run client.go
 
 helloworld-cpp:
-	protoc -I helloworld/ --grpc_out=. --plugin=protoc-gen-grpc=grpc_cpp_plugin helloworld/helloworld.proto && \
-	protoc -I helloworld/ --cpp_out=. helloworld/helloworld.proto
+	protoc -I helloworld/ --grpc_out=./helloworld/ --plugin=protoc-gen-grpc=/usr/local/bin/grpc_cpp_plugin  helloworld/helloworld.proto && \
+	protoc -I helloworld/ --cpp_out=./helloworld/  helloworld/helloworld.proto
 
 helloworld-docker:
 	docker run --rm -it -v $$(pwd)/helloworld:/helloworld grpc/go \
@@ -23,4 +23,4 @@ install-deps:
 
 
 clean:
-	rm helloworld/*.pb.go
+	rm helloworld/*.pb.go helloworld/*.pb.cc helloworld/*.pb.h
